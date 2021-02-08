@@ -1,3 +1,77 @@
+/********************************
+-------- FOR ALL QUERIES --------
+*********************************/
+
+/***********************
+-------- COMMON --------
+************************/
+
+img {
+  max-height: 200px;
+}
+
+#lezioni,
+#steps,
+#why {
+  text-align: center;
+}
+
+/***********************
+------- LEZIONI --------
+************************/
+
+#lezioni{
+  margin-bottom: 50px;
+}
+
+#lezioni .title{
+  margin-bottom: 30px;
+}
+
+#lezioni .row .left,
+#lezioni .row .right {
+  float: left;
+
+  padding: 0 20px;
+}
+
+
+/***********************
+-------- STEPS ---------
+************************/
+#steps {
+  margin-bottom: 50px;
+}
+
+#steps img {
+  height: 200px;
+}
+
+#steps .title{
+  margin-bottom: 30px;
+}
+
+#steps h3{
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#steps .row .left,
+#steps .row .central,
+#steps .row .right {
+  padding: 0 30px;
+}
+
+/********************
+-------- WHY --------
+********************/
+
+#why .row img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
 /**********************************
 ------- LG DESKTOP VERSION --------
 **********************************/
@@ -8,52 +82,21 @@
   -------- COMMON --------
   ************************/
 
-  img {
-    max-height: 200px;
-  }
-
-  #lezioni,
-  #steps,
-  #why {
-    text-align: center;
-  }
 
   /***********************
   ------- LEZIONI --------
   ************************/
 
-  #lezioni .row>.left,
-  #lezioni .row>.right {
-    float: left;
-  }
-
-
-
-  .debug {
-    height: 300px;
-
-    border: 1px solid black;
-
-    background-color: pink;
-  }
 
   /***********************
   -------- STEPS ---------
   ************************/
 
-  #steps img {
-    height: 200px;
-  }
 
   /********************
   -------- WHY --------
   ********************/
 
-  #why .row img {
-    background-color: #428bca;
-    border-radius: 50%;
-    padding: 30px
-  }
 }
 
 
@@ -66,52 +109,25 @@
   -------- COMMON --------
   ************************/
 
-  img {
-    max-height: 200px;
-  }
-
-  #lezioni,
-  #steps,
-  #why {
-    text-align: center;
-  }
 
   /***********************
   ------- LEZIONI --------
   ************************/
 
-  #lezioni .row>.left,
-  #lezioni .row>.right {
-    float: left;
-  }
-
-
-
-  .debug {
-    height: 300px;
-
-    border: 1px solid black;
-
-    background-color: pink;
-  }
 
   /***********************
   -------- STEPS ---------
   ************************/
 
-  #steps img {
-    height: 200px;
+  #steps .row .left,
+  #steps .row .central,
+  #steps .row .right {
+    margin-bottom: 50px;
   }
 
   /********************
   -------- WHY --------
   ********************/
-
-  #why .row img {
-    background-color: #428bca;
-    border-radius: 50%;
-    padding: 30px
-  }
 }
 
 /**************************************
@@ -123,50 +139,21 @@
   -------- COMMON --------
   ************************/
 
-  img {
-    max-height: 200px;
-  }
-
-  #lezioni,
-  #steps,
-  #why {
-    text-align: center;
-  }
 
   /***********************
   ------- LEZIONI --------
   ************************/
 
-  #lezioni .row>.left,
-  #lezioni .row>.right {
-    float: left;
-  }
-
-
-
-  .debug {
-    height: 300px;
-
-    border: 1px solid black;
-
-    background-color: pink;
+  #lezioni .row .left {
+    margin-bottom: 30px;
   }
 
   /***********************
   -------- STEPS ---------
   ************************/
 
-  #steps img {
-    height: 200px;
-  }
 
   /********************
   -------- WHY --------
   ********************/
-
-  #why .row img {
-    background-color: #428bca;
-    border-radius: 50%;
-    padding: 30px
-  }
 }
