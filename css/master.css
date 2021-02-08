@@ -1,3 +1,5 @@
+
+
 /***********************
 -------- COMMON --------
 ************************/
@@ -6,17 +8,14 @@ img {
   max-height: 200px;
 }
 
-
-
-
+#lezioni,
+#steps{
+  text-align: center;
+}
 
 /***********************
 ------- LEZIONI --------
 ************************/
-
-#lezioni{
-  text-align: center;
-}
 
 #lezioni .row>.left,
 #lezioni .row>.right {
@@ -33,7 +32,10 @@ img {
   background-color: pink;
 }
 
-
 /***********************
 -------- STEPS ---------
 ************************/
+
+#steps img {
+  height: 200px;
+}
