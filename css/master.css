@@ -21,6 +21,7 @@ img {
 ************************/
 
 #lezioni{
+  margin-top: 30px;
   margin-bottom: 50px;
 }
 
@@ -30,9 +31,13 @@ img {
 
 #lezioni .row .left,
 #lezioni .row .right {
-  float: left;
-
   padding: 0 20px;
+}
+
+#lezioni .left h3,
+#lezioni .right h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 
