@@ -1,6 +1,29 @@
 /***********************
---------LEZIONI --------
+-------- COMMON --------
 ************************/
+
+img {
+  max-height: 200px;
+}
+
+
+
+
+
+/***********************
+------- LEZIONI --------
+************************/
+
+#lezioni{
+  text-align: center;
+}
+
+#lezioni .row>.left,
+#lezioni .row>.right {
+  float: left;
+}
+
+
 
 .debug {
   height: 300px;
