@@ -1,41 +1,172 @@
+/**********************************
+------- LG DESKTOP VERSION --------
+**********************************/
+
+@media screen and (min-width: 992px){
+
+  /***********************
+  -------- COMMON --------
+  ************************/
+
+  img {
+    max-height: 200px;
+  }
+
+  #lezioni,
+  #steps,
+  #why {
+    text-align: center;
+  }
+
+  /***********************
+  ------- LEZIONI --------
+  ************************/
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    float: left;
+  }
 
 
-/***********************
--------- COMMON --------
-************************/
 
-img {
-  max-height: 200px;
+  .debug {
+    height: 300px;
+
+    border: 1px solid black;
+
+    background-color: pink;
+  }
+
+  /***********************
+  -------- STEPS ---------
+  ************************/
+
+  #steps img {
+    height: 200px;
+  }
+
+  /********************
+  -------- WHY --------
+  ********************/
+
+  #why .row img {
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 30px
+  }
 }
 
-#lezioni,
-#steps{
-  text-align: center;
+
+/**********************************
+-------- MD TALBET VERSION --------
+**********************************/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /***********************
+  -------- COMMON --------
+  ************************/
+
+  img {
+    max-height: 200px;
+  }
+
+  #lezioni,
+  #steps,
+  #why {
+    text-align: center;
+  }
+
+  /***********************
+  ------- LEZIONI --------
+  ************************/
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    float: left;
+  }
+
+
+
+  .debug {
+    height: 300px;
+
+    border: 1px solid black;
+
+    background-color: pink;
+  }
+
+  /***********************
+  -------- STEPS ---------
+  ************************/
+
+  #steps img {
+    height: 200px;
+  }
+
+  /********************
+  -------- WHY --------
+  ********************/
+
+  #why .row img {
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 30px
+  }
 }
 
-/***********************
-------- LEZIONI --------
-************************/
+/**************************************
+-------- XS SMARTPHONE VERSION --------
+**************************************/
 
-#lezioni .row>.left,
-#lezioni .row>.right {
-  float: left;
-}
+@media screen and (max-width: 767px) {
+  /***********************
+  -------- COMMON --------
+  ************************/
+
+  img {
+    max-height: 200px;
+  }
+
+  #lezioni,
+  #steps,
+  #why {
+    text-align: center;
+  }
+
+  /***********************
+  ------- LEZIONI --------
+  ************************/
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    float: left;
+  }
 
 
 
-.debug {
-  height: 300px;
+  .debug {
+    height: 300px;
 
-  border: 1px solid black;
+    border: 1px solid black;
 
-  background-color: pink;
-}
+    background-color: pink;
+  }
 
-/***********************
--------- STEPS ---------
-************************/
+  /***********************
+  -------- STEPS ---------
+  ************************/
 
-#steps img {
-  height: 200px;
+  #steps img {
+    height: 200px;
+  }
+
+  /********************
+  -------- WHY --------
+  ********************/
+
+  #why .row img {
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 30px
+  }
 }
