@@ -67,10 +67,34 @@ img {
 -------- WHY --------
 ********************/
 
+#why .title{
+  margin-bottom: 30px;
+}
+
+#why .first,
+#why .second,
+#why .third{
+  padding: 0 30px;
+  margin-bottom: 50px;
+}
+
 #why .row img {
   background-color: #428bca;
   border-radius: 50%;
   padding: 30px
+}
+
+#why .first h3,
+#why .second h3,
+#why .third h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#why .first hr,
+#why .second hr,
+#why .third hr {
+  margin-top: 50px;
 }
 
 /**********************************
@@ -129,6 +153,13 @@ img {
   /********************
   -------- WHY --------
   ********************/
+
+  #why .first hr,
+  #why .second hr,
+  #why .third hr {
+    width: 50%;
+    margin-left: 25%;
+  }
 }
 
 /**************************************
@@ -153,8 +184,20 @@ img {
   -------- STEPS ---------
   ************************/
 
+  #steps .row .left,
+  #steps .row .central,
+  #steps .row .right {
+    margin-bottom: 50px;
+  }
 
   /********************
   -------- WHY --------
   ********************/
+
+  #why .first hr,
+  #why .second hr,
+  #why .third hr {
+    width: 50%;
+    margin-left: 25%;
+  }
 }
